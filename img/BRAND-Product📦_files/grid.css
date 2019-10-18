@@ -1,0 +1,43 @@
+.container {
+max-width: 900px;
+margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-1 {
+    width: 8.3333333333%; 
+}
+
+.col-2 {
+    width: 16.6666666666%;
+}
+
+.col-3 {
+    width: 24.9999999999%;
+}
+.col-4 {
+    width: 33.3333333332%;
+}
+.col-5 {
+    width: 41.6666666665%;
+}
+.col-6 {
+    width: 49.9999999998;
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6 {
+    padding: 10px;
+}
+
+@media (max-width: 900px) {
+.row {
+    display: inherit;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6 {
+        width: 100%;
+}
+
+}
